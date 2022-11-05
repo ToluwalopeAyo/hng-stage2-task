@@ -1,0 +1,11 @@
+version: "3"
+services:
+  frontend:
+    image: tolulopeayo/hng-frontend:1
+    ports:
+      - "3000:3000"
+  
+  api:
+    image: tolulopeayo/hng-api:1
+    ports:
+      - "8000:8000"
